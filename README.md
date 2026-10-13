@@ -1,16 +1,38 @@
-# React + Vite
+# Chef Claude App 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered recipe assistant built with React that helps users discover recipe ideas based on the ingredients they have available.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Ingredient Input:** Enter available ingredients to get recipe suggestions.
+- **AI-Powered Recipes:** Connects to an AI recipe-generation service to generate recipe content.
+- **Dynamic Results:** Displays the generated recipe in the application.
+- **Asynchronous Processing:** Handles API responses and loading of generated content.
+- **Interactive UI:** Updates the displayed recipe based on user input.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- AI API integration
 
-## Expanding the ESLint configuration
+## 🧠 Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React `useState`
+- Handling form submissions
+- Managing arrays of ingredients
+- Using `async/await` with Promises
+- Calling asynchronous functions
+- Passing data between components through props
+- Conditional rendering
+- Handling API responses
+
+## 📚 What I Learned
+
+Gained practical experience with asynchronous JavaScript, React state management, API integration, and displaying AI-generated content through reusable components.
+
+---
+
+Built as part of my React and AI learning journey.
